@@ -1,0 +1,16 @@
+/* pages/study/study.wxss */
+.k{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1rpx dashed #0BC497; 
+}
+.demo{
+  background:#ff8900;
+  padding-left:30rpx;
+  border:10rpx dashed #ff0000
+}
+.content{
+  background:#121332;
+  color:#ffffff;
+  font-size:60rpx;
+  font-family:serif;
+}

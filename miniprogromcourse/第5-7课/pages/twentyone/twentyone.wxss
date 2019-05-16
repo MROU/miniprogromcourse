@@ -1,0 +1,35 @@
+/* pages/twentyone/twentyone.wxss */
+.item{
+  display: flex;
+  justify-content: flex-start;  
+  margin: 40rpx;
+}
+.item-right{
+  display: flex;
+  justify-content: flex-start;  
+  flex-direction: column;
+  margin: 40rpx;
+}
+
+.circle{
+    width: 200rpx;
+    height: 200rpx;
+    border: 8rpx solid rgb(72, 218, 223);  
+    border-radius: 50%;
+}
+.desc{
+   color: #666666;
+   font-size: 35rpx;
+   margin-top: 20rpx;
+}
+.inputbox{
+  padding-left: 6px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dadada;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 10rpx;
+}

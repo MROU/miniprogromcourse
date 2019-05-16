@@ -1,0 +1,14 @@
+<view class='content'>
+<swiper indicator-active-color="{{indicatorActiveColor}}" indicator-color="{{indicatorColor}}" indicator-dots="{{indicatorDots}}"  bindchange="changeSwiper" 
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{list}}">
+    <swiper-item>
+      <image src="{{item.imgurl}}" class="slide-image"/>
+      <view class='percent_read'><view class='percent_val'>89%</view></view>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='bookname'>{{bookname}}</view>
+<view class='activity'>摇新年签，拆领红包>>></view>
+</view>
+

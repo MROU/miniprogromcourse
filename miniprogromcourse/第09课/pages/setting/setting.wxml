@@ -1,0 +1,5 @@
+<view style="background:#F39C12;height:400rpx">
+    <text style='margin-left:86%;margin-top:20rpx;color:#ffffff;display:block'>设置</text>  
+    <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2049915196,1777460204&fm=27&gp=0.jpg'  style='width:180rpx;height:180rpx;border-radius:50%;margin-left:38%;margin-top:30rpx;border:8rpx solid #F7DC6F'></image>
+    <view style='color:#ffffff;margin-left:41%;margin-top:20rpx;'>鹦鹉兄弟</view>
+</view>

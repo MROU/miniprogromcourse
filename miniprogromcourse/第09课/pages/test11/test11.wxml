@@ -1,0 +1,5 @@
+<view>
+<text selectable='true'>有人说它是仅次于巴西、哥伦比亚的世界第三大咖啡生产国，但有人却说是印度尼西亚。但可以确定的是其 Robusta原种生产量是占全世界第一的。</text>
+<image src="http://ppe.oss-cn-shenzhen.aliyuncs.com/palette/8293/1509946683146/thumb_Mon_Nov_06_2017.jpg"></image>
+<navigator url="../test6/test6" hover-class="navigator-hover">跳转到新页面</navigator>
+</view>

@@ -1,0 +1,13 @@
+<button bindtap='clickOne' data-phone='18989434' data-num='18'>bindtap事件</button>
+<button catchtap='clickTwo'>catchtap事件</button>
+<button bindlongtap='clickThree'>longtap事件</button>
+<!-- 补充的长按函数 长按事件也可以使用这个-->
+<button bindlongpress="clickFour">bindlongpress事件</button>
+<!-- bindtap和catchtap区别 -->
+<navigator url='/pages/thirteen/thirteen'>
+  <view  bindtap='clickBind' class='blue'>使用bindtap事件</view>
+</navigator>
+
+<navigator url='/pages/twelve/twelve'>
+  <view catchtap='clickCatch' class='blue'>使用catchtap事件</view>
+</navigator>

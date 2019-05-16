@@ -1,0 +1,25 @@
+<view class='view_bg'>
+  <image class='img' src='https://image.uc.cn/o/wemedia/s/upload/1705221818132e976fc85dd7a280439bf9effab737;,3,jpegx;3,310x'></image>
+  <text class='content'>第八节 flex布局</text>
+</view>
+<view class='item'>
+  <view class='item-left'>
+    <image src='../images/message.png' class='img-45'></image>
+    <text class='name'>我的消息</text>
+  </view>
+  <view class='item-right'>
+    <text class='num'>8</text>
+    <image src='../images/ic_arrow.png' class='img-60'></image>
+  </view>
+</view>
+
+<view class='item'>
+  <view class='item-left'>
+    <image src='../images/message.png' class='img-45'></image>
+    <text class='name'>我的消息</text>
+  </view>
+  <view class='item-right'>
+    <text class='num'>8</text>
+    <image src='../images/ic_arrow.png' class='img-60'></image>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<button bindtap="selectPhoto">选择图片</button>
+<button bindtap="previewPhoto">预览图片</button>
+<button bindtap="selectvideo">选择视频</button>
+
+<!-- 预览图片 -->
+<view class='imgarea'>
+ <image wx:for="{{imgs}}" bindtap="previewPhoto" data-img='{{item}}' class='img-100' src='{{item}}' ></image>
+</view>
+<!-- 预览视频 -->
+<view class='videoarea'>
+ <video src='{{videoPath}}' ></video>
+</view>

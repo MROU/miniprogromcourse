@@ -1,0 +1,48 @@
+<!--pages/reportfrom/reportfrom.wxml-->
+
+<view class='main'>
+
+  <view class='time'>
+
+    <view class='timestyle'>
+      <text class='hintstr'>时间粒度</text>
+      <text class='{{timeday?"timeval_selected":"timeval"}}' bindtap='slectTimeDay'>日</text>
+      <text class='{{weekday?"timeval_selected":"timeval"}}' bindtap='slectTimeWeek'>周</text>
+      <text class='{{monthday?"timeval_selected":"timeval"}}' bindtap='slectTimeMonth'>月</text>
+    </view>
+
+    <view class='timestyle'>
+      <text class='hintstr'>报销人：</text>  
+       <picker class="name-tel-color" mode="selector" range="{{persons}}" value="{{selindex}}" range-key="{{'name'}}" bindchange="listenerNamePickerSelected">
+          <text wx:if="{{nameStr==''}}">请选择</text>
+          <text wx:if="{{nameStr!=''}}">{{nameStr}}</text>
+        </picker>
+    </view>
+
+    <view class='timestyle' style='margin-top:30rpx'>
+      <picker class="name-tel-color" mode="date" value="{{begindate}}" start="2010-09-01" end="{{date}}" bindchange="beginTime">
+        <text class='fontstyle'> {{begindate}}</text>
+      </picker>
+      <text class='arrow'></text>
+
+
+
+      <text style='margin-left:20rpx;margin-right:20rpx;color:#999999'>到</text>
+
+
+      <picker class="name-tel-color" mode="date" value="{{date}}" start="2010-09-01" end="2025-09-01" bindchange="endTime">
+        <text class='fontstyle'>{{date}}</text>
+      </picker>
+
+      <text class='arrow'></text>
+    </view>
+
+
+
+  </view>
+
+  <view class='tabledata'>
+    <view class='tablename'>报销报表</view>
+    <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+  </view>
+</view>

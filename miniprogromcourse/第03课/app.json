@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/book/book",
+    "pages/mine/mine",
+    "pages/study/study"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position":"top",
+    "color":"#8a8a8a",
+    "selectedColor":"#2c2c2c",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "领读",
+      "iconPath": "images/icon_guide.png",
+      "selectedIconPath": "images/icon_guided.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "分类",
+      "iconPath": "images/icon_category.png",
+      "selectedIconPath": "images/icon_categoryed.png"
+    },
+    {
+      "pagePath": "pages/book/book",
+      "text": "书桌",
+      "iconPath": "images/icon_book.png",
+      "selectedIconPath": "images/icon_booked.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/icon_mine.png",
+      "selectedIconPath": "images/icon_mined.png"
+    }
+    ]
+  }
+}

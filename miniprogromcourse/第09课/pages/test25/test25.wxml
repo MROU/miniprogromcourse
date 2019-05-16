@@ -1,0 +1,6 @@
+<!--pages/test25/test25.wxml-->
+<view class='main'>
+<view class='item1'></view>
+<view class='item2'></view>
+<view class='item3'></view>
+</view>

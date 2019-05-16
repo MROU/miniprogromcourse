@@ -1,0 +1,28 @@
+<view class="main">
+
+  <text class='contenttitle'>{{articles.articledesc}}</text>
+
+
+  <view class='header'>
+  <view class='header-one'>
+    <image src='{{articles.authimg}}' class='cicrl'></image>
+    <image src='../images/auth.png' class='personauth'></image>
+  </view>
+   <view class='header-two'>
+    <text class='authname'>{{articles.authName}}</text>
+    <view><text class='authintro'>喜欢读书，热爱思考，理性发声</text></view>
+   </view>
+  </view>
+  
+
+  <view class='content'>
+    <view class='articlecontent'><text>{{content}}</text></view>
+  </view>
+
+
+
+
+
+
+
+</view>

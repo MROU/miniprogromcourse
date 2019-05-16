@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
+.str{
+   font-size: 30rpx;
+   color: #ff00ff
+}
+ 
+
+
+
+
+
+

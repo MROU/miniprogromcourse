@@ -1,0 +1,38 @@
+<!-- 条件渲染 -->
+<view wx:if="{{status==1}}" class="red"></view>
+<view  wx:if="{{status==2}}" class="green"></view>
+<view  wx:if="{{status==3}}" class="blue"></view>
+<!-- 循环渲染 -->
+<view wx:for="{{arr}}">
+  {{index}}: {{item}}
+</view>
+
+<!-- <view>
+  0:{{arr[0]}}
+</view>
+<view>
+  1:{{arr[1]}}
+</view>
+<view>
+  2:{{arr[2]}}
+</view>
+<view>
+  3:{{arr[3]}}
+</view> -->
+
+<!-- 循环渲染2 -->
+<view wx:for="{{arr}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName}}
+</view>
+
+<!-- 循环渲染3 -->
+<view wx:for="{{arr1}}">
+  {{index}}: {{item.name}}-{{item.age}}
+</view>
+
+
+
+
+
+
+

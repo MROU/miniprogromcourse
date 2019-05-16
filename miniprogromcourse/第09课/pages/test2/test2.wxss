@@ -1,0 +1,117 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-one {
+  flex: 1;
+  text-align: right;
+  color: #c7b88c;
+  font-size: 36rpx;
+  margin: 20rpx;
+}
+
+.content-two {
+  flex: 2;
+  text-align: center;
+}
+
+image {
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  margin-top: 20rpx;
+}
+
+.circl-gender {
+  position: relative;
+  height: 40rpx;
+  width: 40rpx;
+  bottom: 5rpx;
+  left: -48rpx;
+}
+
+.nickname {
+  font-size: 40rpx;
+}
+
+.description {
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  color: #999;
+}
+
+.head-gender {
+  width: 100%;
+  margin-left: 20rpx;
+}
+
+.content-three {
+  flex: 8;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40rpx;
+}
+
+.icon {
+  flex: 1;
+  margin-left: 10rpx;
+}
+
+.icon-size {
+  height: 44rpx;
+  width: 44rpx;
+  justify-content: center;
+}
+
+.item-name {
+  flex: 4;
+  font-size: 36rpx;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+.item-desc {
+  flex: 5;
+  font-size: 30rpx;
+  text-align: right;
+  color: #999;
+  margin-top: 10rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.item-desc-red {
+  flex: 5;
+  font-size: 30rpx;
+  text-align: right;
+  color: #999;
+  margin-top: 10rpx;
+}
+
+.border-desc {
+  border: 1rpx solid #ccc;
+  border-radius: 30rpx;
+  padding: 6rpx;
+}
+
+.redpoint {
+  border-radius: 50%;
+  background-color: #f55;
+  color: #fff;
+  text-align: center;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.item-arrow {
+  flex: 1;
+  text-align: right;
+  margin-right: 10rpx;
+}

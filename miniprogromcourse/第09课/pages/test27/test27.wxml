@@ -1,0 +1,226 @@
+<view class="main">
+  <view class='ordercontent'>
+    <view class='contentheader'>
+      <view class='content-one'>
+        <text class='content-sn'>门派单号：</text>
+        <text>20180706</text>
+        <view class='bussname'>经销商订单号：020040</view>
+      </view>
+      <view class='content-two'>
+        <text class='orderstatus'>待审核</text>
+      </view>
+    </view>
+
+    <view class='contentbody'>
+      <view class='content-storename'>
+        <text class='comm-header-str'>门店名称：尚品本色东四环红星店</text>
+        <image src='../images/ic_phone.png' class='img-60'></image>
+      </view>
+
+      <view class='content-storename'>
+        <text class='comm-header-str'>业主姓名：陈默默</text>
+      </view>
+
+      <view class='content-storename'>
+        <text class='comm-header-str'>业主电话：12687</text>
+        <image src='../images/ic_phone.png' class='img-60'></image>
+      </view>
+
+      <view class='content-storename'>
+        <text class='comm-header-str'>安装地址：北京市朝阳区马驹桥</text>
+        <image src='../images/ic_diqiu.png' class='img-60'></image>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='item_top'>
+    <view class='item_one'>
+      <view class='line-20'></view>
+      <view class='circle'></view>
+      <view class='line'></view>
+    </view>
+
+    <view class='item_two'>
+      <view class='line_circle'>
+        <view class='line_row'></view>
+        <view class='corn_rect'>安装单信息</view>
+      </view>
+      <view class='item_rect'>
+        <scroll-view scroll-y="true" style="height:800rpx">
+          <view class="content-storename-top">
+            <text class='comm-header-str'>安装时间：2019/03/20 08:00</text>
+            <text class="vright" bindtap='updateOrder'>修改</text>
+          </view>
+          <view class="content-storename-6">
+            <text class='comm-header-str'>门店名称：展志天华木门</text>
+          </view>
+          <view class="content-storename-6">
+            <text class='comm-header-str'>安装师傅：刘师傅</text>
+          </view>
+          <view class="content-storename-6">
+            <text class='comm-header-str'>配送师傅：刘师傅 刘师傅  </text>
+          </view>
+          <view class="content-storename-6">
+            <text class='comm-header-str'>测量师傅：刘师傅 刘师傅 刘师傅</text>
+          </view>
+          <view class="content-storename-6">
+            <text class='comm-header-str'>订单系数： 刘师傅 刘师傅 刘师傅 刘师傅</text>
+          </view>
+          <view class="content-storename-6">
+            <text class='comm-header-str'>代收款：89</text>
+          </view>
+          <view class="content-storename-6">
+            <text class='comm-header-str'>预付款状态：未支付</text>
+          </view>
+          <view class="content-storename-6">
+            <text class='comm-header-str'>预付款金额：420元</text>
+          </view>
+
+          <view class="pic_box">
+            <view class="pic_list" wx:for-items="{{measureImageUrl}}" wx:key="id" wx:for-index="index">
+              <image class="pic_list_img" id="img" data-img="{{item}}" src="{{item}}" bindtap="preImg"></image>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='item_top'>
+    <view class='item_one_620'>
+      <view class='line-20'></view>
+      <view class='circle'></view>
+      <view class='line-600'></view>
+
+    </view>
+
+    <view class='item_600'>
+      <view class='line_circle'>
+        <view class='line_row'></view>
+        <view class='corn_rect'>货物信息</view>
+      </view>
+      <view class='item_rect_540'>
+
+        <scroll-view scroll-y="true" style="height:500rpx">
+          <view class='item-goodinfo'>
+            <view class="content-storename-top">
+              <text class='comm-header-str'>2门/108位+2条/23位+0金/0位</text>
+              <text class="vright-f34">未提货</text>
+            </view>
+            <view class="content-storename-2">
+              <text class='comm-header-str-f30'>入:2018/09/12 12:34</text>
+              <text class="vright-f30">出:2018/09/12 12:34</text>
+            </view>
+          </view>
+
+          <view class='item-goodinfo'>
+            <view class="content-storename">
+              <text class='comm-header-str'>2门/108位+2条/23位+0金/0位</text>
+              <text class="vright-f34">未提货</text>
+            </view>
+            <view class="content-storename-2">
+              <text class='comm-header-str-f30'>入:2018/09/12 12:34</text>
+              <text class="vright-f30">出:2018/09/12 12:34</text>
+            </view>
+          </view>
+          <view class='item-goodinfo'>
+            <view class="content-storename">
+              <text class='comm-header-str'>2门/108位+2条/23位+0金/0位</text>
+              <text class="vright-f34">未提货</text>
+            </view>
+            <view class="content-storename-2">
+              <text class='comm-header-str-f30'>入:2018/09/12 12:34</text>
+              <text class="vright-f30">出:2018/09/12 12:34</text>
+            </view>
+          </view>
+
+          <view class='item-goodinfo'>
+            <view class="content-storename">
+              <text class='comm-header-str'>2门/108位+2条/23位+0金/0位</text>
+              <text class="vright-f34">未提货</text>
+            </view>
+            <view class="content-storename-2">
+              <text class='comm-header-str-f30'>入:2018/09/12 12:34</text>
+              <text class="vright-f30">出:2018/09/12 12:34</text>
+            </view>
+          </view>
+
+          <view class="content-storename-2">
+            <text class="vright-corn"><text class='corn-btn'>货已齐</text></text>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='item_top'>
+    <view class='item_one_620'>
+      <view class='line-20'></view>
+      <view class='circle'></view>
+      <view class='line-600'></view>
+
+    </view>
+
+    <view class='item_600'>
+      <view class='line_circle'>
+        <view class='line_row'></view>
+        <view class='corn_rect'>货物信息</view>
+      </view>
+      <view class='item_rect_540'>
+
+        <scroll-view scroll-y="true" style="height:500rpx">
+          <view class='item-goodinfo'>
+            <view class="content-storename-top">
+              <text class='comm-header-str'>2门/108位+2条/23位+0金/0位</text>
+              <text class="vright-f34">未提货</text>
+            </view>
+            <view class="content-storename-2">
+              <text class='comm-header-str-f30'>入:2018/09/12 12:34</text>
+              <text class="vright-f30">出:2018/09/12 12:34</text>
+            </view>
+          </view>
+
+          <view class='item-goodinfo'>
+            <view class="content-storename">
+              <text class='comm-header-str'>2门/108位+2条/23位+0金/0位</text>
+              <text class="vright-f34">未提货</text>
+            </view>
+            <view class="content-storename-2">
+              <text class='comm-header-str-f30'>入:2018/09/12 12:34</text>
+              <text class="vright-f30">出:2018/09/12 12:34</text>
+            </view>
+          </view>
+          <view class='item-goodinfo'>
+            <view class="content-storename">
+              <text class='comm-header-str'>2门/108位+2条/23位+0金/0位</text>
+              <text class="vright-f34">未提货</text>
+            </view>
+            <view class="content-storename-2">
+              <text class='comm-header-str-f30'>入:2018/09/12 12:34</text>
+              <text class="vright-f30">出:2018/09/12 12:34</text>
+            </view>
+          </view>
+
+          <view class='item-goodinfo'>
+            <view class="content-storename">
+              <text class='comm-header-str'>2门/108位+2条/23位+0金/0位</text>
+              <text class="vright-f34">未提货</text>
+            </view>
+            <view class="content-storename-2">
+              <text class='comm-header-str-f30'>入:2018/09/12 12:34</text>
+              <text class="vright-f30">出:2018/09/12 12:34</text>
+            </view>
+          </view>
+
+          <view class="content-storename-2">
+            <text class="vright-corn"><text class='corn-btn'>货已齐</text></text>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/test22/test22.wxml-->
+<view class='bg_view'>
+<image style='width:200rpx;height:200rpx;border:10rpx solid #ffffff;border-radius:50%;margin-left:36%;margin-top:10%;' src='../images/elephant.png'></image>
+<view style='margin-left:41%;margin-top:20rpx;color:#ffffff'>第七节课</view>
+</view>
+

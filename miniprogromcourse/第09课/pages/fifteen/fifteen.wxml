@@ -1,0 +1,17 @@
+<button bindtap='bindAdd'>加</button>
+<button bindtap='bindReduce'>减</button>
+<button bindtap='bindMulti'>乘</button>
+<button bindtap="bindDivide">除</button>
+<button bindtap="bindMod">取余</button>
+
+<!-- 判断是否相等 -->
+<button bindtap="bindEqual">相等比较</button>
+<button bindtap="bindNoEqual">不相等比较</button>
+<button bindtap="bindCompare">比较运算符</button>
+
+<!-- 逻辑运算符 -->
+<button bindtap="bindLogicCompare">逻辑运算符</button>
+
+
+
+

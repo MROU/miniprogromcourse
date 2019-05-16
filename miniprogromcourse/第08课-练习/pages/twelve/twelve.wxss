@@ -1,0 +1,44 @@
+.article{
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx;
+}
+.authorimg{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.article-header{
+  display: flex;
+  align-items: center;
+}  
+.authorname{
+  margin-left: 20rpx;
+}
+.article-img{
+  margin-top: 20rpx;
+}
+.articleimg{
+  margin-top: 20rpx;
+}
+.articleimg{
+  height: 320rpx;
+  width: 100%;
+  border-radius: 10rpx;
+}
+.article-content{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-size: 46rpx;
+}
+.desc{
+  color: #666666;
+}
+
+
+  
+  
+
+  

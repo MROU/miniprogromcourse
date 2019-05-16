@@ -1,0 +1,122 @@
+<view class='main'>
+  <view class='content-one'>编辑</view>
+  <view class='content-two'>
+    <view class='head-gender'>
+        <image src="{{userInfo.avatarUrl}}" hidden='{{showbtn}}'>
+    </image>
+    <button class='radiusbtn' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" hidden='{{!showbtn}}'>点击获取</button>
+    </view>
+    <view class='nickname'>{{userInfo.nickName}}</view>
+    <view class='description'>一句精制的简介，让别人更懂你</view>
+  </view>
+  <view class='content-three'>
+    <view class='item'>
+      <view class='icon'>
+        <image class='icon-size' src='../../images/message.png'></image>
+      </view>
+      <view class='item-name'>
+        我的消息
+      </view>
+      <view class='item-desc'>
+        <text class='redpoint'>9</text>
+      </view>
+      <view class='item-arrow'>
+        <image class='icon-size' src='../../images/arrow_down.png'></image>
+      </view>
+    </view>
+
+    <view class='item'>
+      <view class='icon'>
+        <image class='icon-size' src='../../images/sms.png'></image>
+      </view>
+      <view class='item-name'>
+        我的书单*书评
+      </view>
+      <view class='item-desc'>
+        <text class='border-desc'>写书评</text>
+      </view>
+      <view class='item-arrow'>
+        <image class='icon-size' src='../../images/arrow_down.png'></image>
+      </view>
+    </view>
+
+
+    <view class='item'>
+      <view class='icon'>
+        <image class='icon-size' src='../../images/note.png'></image>
+      </view>
+      <view class='item-name'>
+        我的笔记
+      </view>
+      <view class='item-desc'>
+        <text>7</text>
+      </view>
+      <view class='item-arrow'>
+        <image class='icon-size' src='../../images/arrow_down.png'></image>
+      </view>
+    </view>
+
+    <view class='item'>
+      <view class='icon'>
+        <image class='icon-size' src='../../images/person.png'></image>
+      </view>
+      <view class='item-name'>
+        关注*粉丝
+      </view>
+      <view class='item-desc'>
+         
+      </view>
+      <view class='item-arrow'>
+        <image class='icon-size' src='../../images/arrow_down.png'></image>
+      </view>
+    </view>
+
+
+   <view class='item'>
+      <view class='icon'>
+        <image class='icon-size' src='../../images/time.png'></image>
+      </view>
+      <view class='item-name'>
+        购买时长
+      </view>
+      <view class='item-desc'>
+
+      </view>
+      <view class='item-arrow'>
+        <image class='icon-size' src='../../images/arrow_down.png'></image>
+      </view>
+    </view>
+
+     <view class='item'>
+      <view class='icon'>
+        <image class='icon-size' src='../../images/friends.png'></image>
+      </view>
+      <view class='item-name'>
+        邀请好友
+      </view>
+      <view class='item-desc'>
+          邀请好友，各得1天
+      </view>
+      <view class='item-arrow'>
+        <image class='icon-size' src='../../images/arrow_down.png'></image>
+      </view>
+    </view>
+
+
+      <view class='item'>
+      <view class='icon'>
+        <image class='icon-size' src='../../images/setting.png'></image>
+      </view>
+      <view class='item-name'>
+        设置
+      </view>
+      <view class='item-desc'>
+        
+      </view>
+      <view class='item-arrow'>
+        <image class='icon-size' src='../../images/arrow_down.png'></image>
+      </view>
+    </view>
+
+  </view>
+</view>

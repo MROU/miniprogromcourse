@@ -1,0 +1,14 @@
+<button bindtap="bindIf">if语句</button>
+<button bindtap="bindIfElse">if else 语句</button>
+
+<!-- for语句 -->
+<button bindtap="bindFor">for 语句</button>
+<button bindtap="bindForOne">for 语句一</button>
+<button bindtap="bindForTwo">for 语句二</button>
+
+<!-- Math的使用 -->
+<button bindtap="bindMath">Math的使用</button>
+<!-- Date的使用 -->
+<button bindtap="bindDate">Date的使用</button>
+<!-- String的使用 -->
+<button bindtap="bindString">String的使用</button>

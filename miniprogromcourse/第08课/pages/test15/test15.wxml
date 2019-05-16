@@ -1,0 +1,17 @@
+<!--pages/test15/test15.wxml-->
+<view class='main'>
+  <image class='header_img' src='../images/header_bg.png'></image>
+  <view class='header_one'>
+    <image class='circle' src='{{userInfo.avatarUrl}}'></image>
+    <view class='header_text'>{{userInfo.nickName}}</view>
+    <view class='content_text'>{{userInfo.province}}{{userInfo.city}}</view>
+  </view>
+  <view class='tipping'>
+    <view class='item' wx:for="{{moneys}}">
+        {{item}}元
+    </view>
+  </view>
+
+<view class='other_money'>其他金额</view>
+<view class='bottom'>赞赏是为表示鼓励而对文章内容的无偿赠与</view>
+</view>

@@ -1,0 +1,65 @@
+<!-- 可以参考pages/test16/test16也实现相似效果 -->
+<!-- 第十课对应pages/ten/ten -->
+<!-- 第十一课对应pages/eleven/eleven -->
+<!-- 第十二课对应pages/twelve/twelve -->
+<!-- 第十三课对应pages/thirteen/thirteen -->
+<!-- 第十四课对应pages/fourteen/fourteen -->
+<!-- 第十五课对应pages/fifteen/fifteen -->
+<!-- 第十六课对应pages/sixteen/sixteen -->
+<!-- 第十七课对应pages/seventeen/seventeen-->
+<!-- 第十八课对应pages/eighteen/eighteen-->
+<view>
+  <view class='item-one'>
+    <view class='item-a'>
+      <image class='img-80' src='../images/flower.png'></image>
+      <text class='item-name'>小花花</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/car.png'></image>
+      <text>小花花</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/chicken.png'></image>
+      <text>小花花</text>
+    </view>
+  </view>
+
+  <view class='item-one'>
+    <view class='item-a'>
+      <image class='img-80' src='../images/dog.png'></image>
+      <text class='item-name'>小花花</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/duck.png'></image>
+      <text>小花花</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/elephant.png'></image>
+      <text>小花花</text>
+    </view>
+  </view>
+
+  <view class='item-one'>
+    <view class='item-a'>
+      <image class='img-80' src='../images/guice.png'></image>
+      <text class='item-name'>小和</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/goat.png'></image>
+      <text>小喝</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/ice.png'></image>
+      <text>小花花</text>
+    </view>
+  </view>
+
+
+
+</view>

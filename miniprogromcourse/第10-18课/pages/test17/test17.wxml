@@ -1,0 +1,4 @@
+<!--pages/test17/test17.wxml-->
+<canvas  canvas-id="shareCanvas" style="width:100%;height:900px"></canvas>
+<button bindtap='toShareImg'>生成图片</button>
+<button bindtap='saveImg'>保存图片</button>

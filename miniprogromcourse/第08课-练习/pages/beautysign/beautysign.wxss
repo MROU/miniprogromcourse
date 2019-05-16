@@ -1,0 +1,34 @@
+/* pages/beautysign/beautysign.wxss */
+page{
+  background-color: #85C1E9
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+.content{
+  border: 2rpx solid #ffffff;
+  width: 600rpx;
+  height: 600rpx;
+  margin-top: 100rpx
+}
+.title{
+  font-size: 100rpx;
+  margin-left: 30rpx;
+  color: #ffffff;
+  margin-top: 100rpx;
+  font-weight: bold
+}
+.desc{
+  color: #ffffff;
+  margin: 50rpx;
+  display: flex;
+  justify-content: center
+}
+.bottom{
+  background-color: #ffffff;
+  width: 700rpx;
+  height: 160rpx;
+  margin: 40rpx
+}

@@ -1,0 +1,21 @@
+<!-- Toast的使用 -->
+<button bindtap="showToast">展示Toast</button>
+<button bindtap="hideToast">隐藏Toast</button>
+<!-- loading的使用 -->
+<button bindtap="showLoading">展示Loading</button>
+<button bindtap="hideLoading">隐藏Loading</button>
+<!-- Modal弹框的使用 -->
+<button bindtap="showModal">展示Modal弹框</button>
+<!-- showActionSheet操作菜单的使用 -->
+<button bindtap="showActionSheet">展示showActionSheet菜单</button>
+
+<!-- 页面跳转 -->
+<!-- <navigator url='/pages/learnwxss/learnwxss'>跳转</navigator> -->
+<button bindtap="navigateTo">navigateTo页面跳转</button>
+<!-- <navigator open-type='switchTab' url='/pages/book/book'>跳转Tab</navigator> -->
+<button bindtap="switchTab">switchTab页面跳转</button>
+<!-- <navigator open-type='redirectTo' url='/pages/book/book'>redirectTo页面跳转</navigator> -->
+<button bindtap="redirectTo">redirectTo页面跳转</button>
+
+
+

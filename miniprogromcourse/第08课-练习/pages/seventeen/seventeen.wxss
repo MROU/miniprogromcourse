@@ -1,0 +1,7 @@
+/* pages/seventeen/seventeen.wxss */
+.top-50{
+  margin-top: 50rpx;
+}
+.content{
+  color: #001aff
+}

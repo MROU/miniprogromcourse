@@ -1,0 +1,24 @@
+<!-- 个人信息 对应接口getPerson -->
+<!-- <view class="item">
+  <image class='circle' src='{{imgurl}}'></image>
+  <view class='item-right'>
+    <text>{{nickname}}</text>
+    <text class='desc'>{{desc}}</text>
+  </view>
+</view> -->
+
+<!-- 列表信息 对应接口getOrderList -->
+<view class="item" wx:for="{{list}}">
+  <image class='circle' src='{{item.imgurl}}'></image>
+  <view class='item-right'>
+    <text>{{item.nickname}}</text>
+    <text class='desc'>{{item.desc}}</text>
+  </view>
+</view>
+
+<!-- 表单数据提交 -->
+<!-- <form bindsubmit="commitData">
+  <input class='inputbox' name="phone" placeholder="请输入你的手机号" />
+  <input class='inputbox' name="code" placeholder="验证码" />
+  <button form-type="submit">校验登录</button>
+</form> -->

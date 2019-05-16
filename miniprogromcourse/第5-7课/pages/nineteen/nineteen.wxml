@@ -1,0 +1,20 @@
+<!-- 数据缓存 -->
+<button bindtap='saveData'>保存数据</button>
+<button bindtap='getData'>获取数据</button>
+<button bindtap='clearDataByKey'>清除对应数据</button>
+<button bindtap='clearAllData'>清除所有数据</button>
+
+<!-- 用户信息 -->
+<!-- userNickName 用户昵称  userAvatarUrl 用户头像 userGender用户性别 userCity 用户所在城市
+userProvince 用户所在省份 userCountry 用户所在国家 userLanguage 用户语言 -->
+<view class='content'>
+<view class='userinfo-avatar'><open-data  type="userAvatarUrl"></open-data></view>
+</view>
+<view><open-data type="userGender" lang="zh_CN"></open-data></view>
+<open-data type="userProvince" lang="zh_CN"></open-data>
+<open-data type="userCity" lang="zh_CN"></open-data>
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+  获取用户信息
+</button>
+
+

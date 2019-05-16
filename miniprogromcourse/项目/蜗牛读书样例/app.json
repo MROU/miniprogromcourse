@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/leadreading/leadreading",
+    "pages/desk/desk",
+    "pages/mine/mine",
+    "pages/classify/classify",
+    "pages/detail/detail",
+    "pages/bookreview/bookreview"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#2c2c2c",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/leadreading/leadreading",
+        "text": "领读",
+        "iconPath": "images/leaderread.png",
+        "selectedIconPath": "images/leaderreaded.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "images/type.png",
+        "selectedIconPath": "images/typeed.png"
+      },
+      {
+        "pagePath": "pages/desk/desk",
+        "text": "书桌",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/booked.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/myed.png"
+      }
+    ]
+  }
+}

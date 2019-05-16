@@ -1,0 +1,50 @@
+<!--pages/addrecord/addrecord.wxml-->
+<view class="contain">
+  <view class="main">
+    <view class="headstr">猜猜我用哪三个词形容自己？</view>
+    <view class='cells'>
+      <view wx:for="{{storelist}}" wx:for-item="item">
+
+        <view wx:if="{{!item.netsel}}">
+          <view class='{{item.selpoint?stylenameed:stylename}}' bindtap='selectStoreByCode' id="code" data-code="{{item.storeCode}}" data-index="{{item.index}}" data-name="{{item.storeName}}">
+            <view class='vright'>
+              <view class='vl'></view>
+              <view class='vf'>
+                <image hidden='{{!item.selpoint}}' src='../images/IMG_20170623_180741.jpg'></image>
+              </view>
+            </view>
+            <view class='{{item.selpoint?cstylenameed:cstylename}}'>
+              {{item.storeName}}
+            </view>
+          </view>
+        </view>
+
+        <view wx:else>
+          <view class='cell-selected-net' bindtap='selectStoreByCode' id="code" data-code="{{item.storeCode}}" data-index="{{item.index}}" data-name="{{item.storeName}}">
+            <view class='vright'>
+              <view class='vl'></view>
+              <view class='vf'>
+                <image hidden='{{!item.selpoint}}' src='../images/IMG_20170623_180741.jpg'></image>
+              </view>
+            </view>
+            <view class='storename-selected-net'>
+              {{item.storeName}}
+            </view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+  <block wx:if="{{isshow}}">
+    <view class='commit-box'>
+      <button type="primary" size="default" bindtap='commitData'> 提交 </button>
+    </view>
+  </block>
+
+  <block wx:if="{{isshare}}">
+    <view class='share-box'>
+      <button type="primary" size="default" plain="true" open-type="share"> 转发 </button>
+    </view>
+  </block>
+</view>

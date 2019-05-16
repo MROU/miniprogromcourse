@@ -1,0 +1,4 @@
+/* pages/seventeenone/seventeenone.wxss */
+.content{
+  color: #001aff;
+}

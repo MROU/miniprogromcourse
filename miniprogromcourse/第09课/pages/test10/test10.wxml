@@ -1,0 +1,71 @@
+<view class="main">
+  <view class='playcontent'>
+    <image class='img-right' src='../images/question.png' bindtap='showDialogModel'></image>
+    <image class='playimg' src='{{headerimgs[imgindex]}}'></image>
+    <view class='playname'>{{headernames[imgindex]}}</view>
+    <image wx:if="{{!playstatus}}" class='play-icon' src='../images/play.png' bindtap='listenerButtonPlay'></image>
+    <image wx:if="{{playstatus}}" class='play-icon' src='../images/stop.png' bindtap='listenerButtonPlay'></image>
+    <view class='playname'>{{minute}}:{{second}}</view>
+    <view>
+      <image class='play-arrow' src='../images/arrow_drop_down.png' bindtap='showTime'></image>
+
+      <view class='timecontrol' animation="{{opacityAnimationData}}" wx:if="{{showtimestatus}}">
+        <view class='timeselect'>
+          <view class='item-time'>
+            <block wx:for="{{pointarray}}" wx:key="index">
+              <view class='{{selindex==index?classstrhover:classstr}}' bindtap='selectActive' id="num" data-num="{{index}}"></view>
+              <view wx:if="{{index!=4}}" class='hr'></view>
+            </block>
+          </view>
+        </view>
+
+        <view class='timeselect'>
+          <view class='item-time'>
+            <block wx:for="{{pointarray}}" wx:key="index" wx:for-item="item">
+              <text class='timenum'>{{item}}</text>
+              <view wx:if="{{index!=4}}" class='hr-hide'></view>
+            </block>
+          </view>
+        </view>
+        <view class='timeisup'>{{mtime}}分钟定时关闭</view>
+        <image class='play-close' src='../images/timeclose.png' bindtap='hideTime'></image>
+      </view>
+    </view>
+
+    <view class='bottom-box' style='{{bgstyle}}' animation="{{animationBottomData}}">
+      <view class='width-200' wx:for="{{boxmenus}}" wx:for-index="index" wx:for-item="item">
+        <view class='box-item' bindtap='selectImgHeader' id='index' data-id="{{index}}">
+          <view class='{{index==imgindex?"circel-bg":""}}'>
+            <image class='img-80' src='{{item.boxmimg}}'></image>
+            <text class='boxname' style='{{fontstyle}}'>{{item.boxmname}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='dialog-style' animation="{{animationDialogData}}" wx:if="{{showDialogStatus}}">
+      <view class='dialog-content'>
+        <image class='img-right' src='../images/del.png' bindtap='hideDialogModel'></image>
+        <text>关于小声音</text>
+        <view class='thint'>hello，欢迎来到小声音的世界</view>
+        <view class='thint'>在这里，你可以认识到小动物的声音</view>
+        <view class='thint'>快带你的宝宝来认识我们吧~~</view>
+      </view>
+    </view>
+
+
+
+    <view class='menu-style' wx:if="{{showModalStatus}}" animation="{{animationData}}" bindtap='hideActionModel'>
+      <view class='menu-content'>
+        <view class='menu-item' wx:for="{{menus}}" wx:for-index="index" data-id="{{index}}" wx:for-item="item" bindtap='selectMenu'>
+          <image class='img-80' src='{{item.mimg}}'></image>
+          <view>{{item.mname}}</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="show-menu">
+      <image bindtap='showActionModel' class='img-45' src='../images/add.png'></image>
+    </view>
+  </view>
+</view>

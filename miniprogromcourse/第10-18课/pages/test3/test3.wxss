@@ -1,0 +1,154 @@
+/* pages/addrecord/addrecord.wxss */
+.contain{
+  height: 1200rpx;
+  width: 100%;
+  background: #3A3C43;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headstr {
+  flex: 1;
+  text-align: center;
+  font-size:46rpx;
+  justify-content: flex-start;
+  margin: 25rpx;
+  color: #00FF2F;
+}
+
+.cells{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cell {
+  display: flex;
+  background-color: #555861;
+  color: #fff;
+  border-radius: 20rpx;
+  margin-right: 10rpx;
+  margin-top: 10rpx;
+  width: 130rpx;
+  height: 130rpx;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.storename {
+  display: flex;
+  background-color: #555861;
+  color: #fff;
+  border-radius: 20rpx;
+  width: 130rpx;
+  height: 130rpx;
+  font-size: 26rpx;
+  justify-content: center;
+  flex: 2;
+}
+
+
+.cell-selected {
+  display: flex;
+  background-color: #33353A;
+  color: #fff;
+  border-radius: 20rpx;
+  margin-right: 10rpx;
+  margin-top: 10rpx;
+  width: 130rpx;
+  height: 130rpx;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+.cell-selected-net{
+  display: flex;
+  background-color:  #00FF2F;
+  color: #fff;
+  border-radius: 20rpx;
+  margin-right: 10rpx;
+  margin-top: 10rpx;
+  width: 130rpx;
+  height: 130rpx;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.storename-selected {
+  display: flex;
+  background-color: #33353A;
+  color: #fff;
+  border-radius: 20rpx;
+  width: 130rpx;
+  height: 130rpx;
+  font-size: 26rpx;
+  justify-content: center;
+  flex:2;
+}
+
+.storename-selected-net {
+  display: flex;
+  background-color: #00FF2F;
+  color: #fff;
+  border-radius: 20rpx;
+  width: 130rpx;
+  height: 130rpx;
+  font-size: 26rpx;
+  justify-content: center;
+  flex:2;
+}
+
+image {
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+}
+
+.vright {
+  display: flex;
+  flex-direction: row;
+    flex: 1;
+}
+
+.vl {
+  flex: 2;
+}
+
+.vf {
+  flex: 1;
+}
+
+.commit-box{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 100rpx;
+    position: fixed;
+    bottom: 50rpx;
+    left: 0;
+}
+
+.share-box{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 100rpx;
+    position: fixed;
+    bottom: 50rpx;
+    left: 0;
+}
+
+button{
+  width: 80%;
+  height: 100rpx;
+}
+.timecontrol{
+  position: relative;
+  text-align: center
+}

@@ -1,0 +1,69 @@
+/* pages/test20/test20.wxss */
+.main{
+  display: flex;
+  flex-direction: column
+}
+page{
+    background: #789987;
+}
+.item{
+  height: 320rpx;
+  background: #789987;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx #444444 solid;
+}
+
+.item-num{
+  width: 100%;
+  display: flex;
+  justify-content: center
+}
+.item-num1{
+  flex: 1;
+  display: flex;
+  justify-content: center
+}
+.item-num2{
+  flex: 1;
+    display: flex;
+  justify-content: center
+}
+.numsty{
+  font-size: 84rpx;
+  color: white;
+  margin-top: 40rpx;
+  font-weight: bold
+}
+.item-bottom{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80rpx;
+}
+
+.item-bottom1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60rpx;
+}
+.item-bg{
+  background: #444444;
+  color: white;
+  padding: 20rpx;
+}
+
+.arrow{
+  display: inline-block;
+  width: 16rpx;
+  height: 16rpx;
+  border-width: 8rpx 8rpx 0 0;
+  border-color: #ffffff;
+  border-style: solid;
+  transform: rotate(45deg);
+}
+.item-center{
+  display: flex;
+  justify-content: center
+}

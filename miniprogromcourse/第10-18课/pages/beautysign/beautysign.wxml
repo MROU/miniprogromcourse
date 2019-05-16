@@ -1,0 +1,11 @@
+<!--pages/beautysign/beautysign.wxml-->
+<view class='all'>
+<view class='main'>
+  <view class='content'>
+    <view class='title'>Start</view>
+    <view class='desc' space='true'>一旦真的爱上， 人人都是傻瓜,一旦真的爱上， 人人都是傻瓜
+    </view>
+  </view>
+</view>
+ <view class='bottom'></view>
+ </view>

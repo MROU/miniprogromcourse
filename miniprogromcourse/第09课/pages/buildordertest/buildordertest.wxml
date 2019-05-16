@@ -1,0 +1,116 @@
+<view class="main">
+
+  <form bindsubmit="commitBuildData">
+    <view class="goods-list">
+
+      <view class="show-address">
+        <view class="cell">
+          <view >门店名称：</view>
+          <!--mode默认selector range数据源value选择的index bindchange事件监听-->
+            <view class="cell-fr">
+          <picker class="name-tel-color" mode="selector" range="{{array}}" value="{{index}}" range-key="{{'name'}}" bindchange="listenerPickerSelected">
+            <text>{{array[index].name}}</text>
+          </picker>
+           </view>
+        </view>
+
+        <view class="cell">
+         <view>安装时间：</view>
+          <!--mode默认selector range数据源value选择的index bindchange事件监听-->
+         <block class="cell-fr">
+          <picker class="name-tel-color" mode="date" value="{{date}}" start="2017-09-01" end="2019-09-01" bindchange="bindDateChange">
+            <view class="picker">
+              {{date}}
+            </view>
+          </picker>
+
+          <picker class="name-tel-color" mode="time" value="{{time}}" start="06:00" end="23:00" bindchange="bindTimeChange">
+            <view class="pickertime">
+              {{time}}
+            </view>
+          </picker>
+          </block>
+        </view>
+
+        <view class="cell">
+          <text class='tcenter'>分拣编号：</text>
+          <input class='iflex' name="ordernum" auto-height placeholder-style="color:#888;" placeholder="请填写门店安装单号" value='{{installNote}}' style="color:#888" />
+        </view>
+
+        <view class="cell">
+          <text class='tcenter'>安装内容：</text>
+          <textarea class='iflex' name="ordercontent" placeholder="请填写安装内容" placeholder-class="placeholdText" />
+        </view>
+
+
+      </view>
+    </view>
+
+
+
+    <view class="goods-list">
+      <view class="show-address">
+        <!--size属性为mini-->
+        <view class="cell">
+          <view class="tcenter">五金信息：</view>
+          <textarea class='iflex' name="wujincontent" auto-height placeholder-style="color:#888;" placeholder="请输入五金信息" value='{{installNote}}' style="color:#888" />
+        </view>
+
+
+        <view class="cell">
+          <view class="tcenter">提货信息：</view>
+          <textarea class='iflex' name="tihuocontent" auto-height placeholder-style="color:#888;" placeholder="请输入提货信息" value='{{installNote}}' style="color:#888" />
+        </view>
+
+        <view class="cell">
+          <view class="tcenter">代收款项：</view>
+          <textarea class='iflex' name="daishoukuancontent" auto-height placeholder-style="color:#888;" placeholder="请输入代收款金额" value='{{installNote}}' style="color:#888" />
+        </view>
+      </view>
+    </view>
+
+    <view class="goods-list">
+  
+      <view class="show-address">
+        <!--size属性为mini-->
+
+
+
+        <view class="cell">
+          <view class="tcenter">姓名：</view>
+          <textarea class='iflex'  name="username" auto-height placeholder-style="color:#888;" placeholder="请输入客户姓名" value='{{installNote}}' style="color:#888" />
+        </view>
+
+
+        <view class="cell">
+          <radio-group bindchange="swiperChange">
+            <label class="buttonstyle">
+              <radio checked="" value="1" name="pass" />男</label>
+            <label class="buttonstyle">
+              <radio checked="" value="2" name="unpass" />女</label>
+          </radio-group>
+        </view>
+
+        <view class="cell">
+          <view class="tcenter">电话：</view>
+          <textarea  class='iflex'  name="userphone" auto-height placeholder-style="color:#888;" placeholder="请输入客户电话" value='{{installNote}}' style="color:#888" />
+        </view>
+
+  <view class="cell">
+      
+          <view class="cell-ft">所在地区：</view>
+          <!--mode默认selector range数据源value选择的index bindchange事件监听-->
+           <view class="cell-fr"  style="color:#888" bindtap='toAddrSelect'>{{addr}}</view>
+          <!--checkbox-group就是一个checkbox组 有个监听事件bindchange，监听数据选中和取消-->
+      
+    </view>
+
+    <view class="cell">
+        <view class="tcenter">详细地址：</view>
+        <textarea  class='iflex'  name="useraddress" auto-height placeholder-style="color:#888" placeholder="例如：1号楼二单元"/>
+    </view>
+        <button class="login" form-type="submit">立即提交</button>
+      </view>
+    </view>
+  </form>
+</view>

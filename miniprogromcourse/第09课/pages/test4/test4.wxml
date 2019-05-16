@@ -1,0 +1,22 @@
+<view class="main">
+  <view class="content-one">
+    <view class="content-one-first">
+
+
+      <view class='tcenter'>
+        <view class='title'>在读榜</view>
+        <view class='desc'>Top List</view>
+      </view>
+      <image class='round' src='http://ppe.oss-cn-shenzhen.aliyuncs.com/collections/73/2/thumb.jpg'></image>
+    </view>
+    <view class="content-one-second">
+
+
+      <view class='tcenter'>
+        <view class='title'>新书榜</view>
+        <view class='desc'>New Release</view>
+      </view>
+      <image class='round' src='http://ppe.oss-cn-shenzhen.aliyuncs.com/collections/73/2/thumb.jpg'></image>
+    </view>
+  </view>
+</view>

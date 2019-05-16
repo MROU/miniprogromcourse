@@ -1,0 +1,145 @@
+<scroll-view scroll-y>
+  <view class='main'>
+    <view class='item'>
+      <view class='item-left'>
+        <view class='item-store'>仓储</view>
+      </view>
+      <view class='item-content'>
+        <view class='item-right'>
+          <view class='item-right-circle'>
+           <view  class='red' style='left:100rpx;'><text class='red-c'>125</text></view> 
+            <text style='width:180rpx;text-algin:center'>分拣</text>
+          </view>
+          <view class='item-right-circle'>
+            <view  class='red'  style='left:240rpx;'><text class='red-c' >15</text></view> 
+            <text style='width:180rpx;text-algin:center'>备货</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>仓储单</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='cell'>
+      <view class='cell-left'>
+        <view class='item-right'>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>配送地图</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>现场巡检</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>指派车辆</text>
+          </view>
+
+        </view>
+      </view>
+      <view class='float-v'>
+        <view class='item-store-cell'>配送</view>
+      </view>
+    </view>
+
+    <view class='item'>
+      <view class='item-left'>
+        <view class='item-store' style=' background: rgb(0, 199, 252);'>安装</view>
+      </view>
+      <view class='item-content' style=' background: rgb(0, 199, 252);'>
+        <view class='item-right'>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>安装调度</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>安装验收</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>返修单</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='cell'>
+      <view class='cell-left' style='background: rgb(249, 176,175);'>
+
+
+        <view class='item-right'>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>测量预约</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>测量提交</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>测量拆单</text>
+          </view>
+
+        </view>
+      </view>
+      <view class='float-v'>
+        <view class='item-store-cell' style='background: rgb(249, 176,175);'>测量</view>
+      </view>
+    </view>
+
+    <view class='item'>
+      <view class='item-left'>
+        <view class='item-store' style=' background: rgb(243, 114, 172);'>结算</view>
+      </view>
+      <view class='item-content' style=' background: rgb(243, 114, 172);'>
+        <view class='item-right'>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>内部结算</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>应收对账</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>交易记录</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='cell'>
+      <view class='cell-left' style=' background: rgb(174, 196, 252);'>
+
+
+        <view class='item-right'>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>管理费用</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>师傅工费</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>记账</text>
+          </view>
+
+        </view>
+      </view>
+      <view class='float-v'>
+        <view class='item-store-cell' style=' background: rgb(174, 196, 252);'>办公</view>
+      </view>
+    </view>
+
+    <view class='item'>
+      <view class='item-left'>
+        <view class='item-store' style=' background: rgb(67, 239, 151);'>报表</view>
+      </view>
+      <view class='item-content' style=' background: rgb(67, 239, 151);'>
+        <view class='item-right'>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>报销报表</text>
+          </view>
+          <!-- <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>备货</text>
+          </view>
+          <view class='item-right-circle'>
+            <text style='width:180rpx;text-algin:center'>仓储单</text>
+          </view> -->
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

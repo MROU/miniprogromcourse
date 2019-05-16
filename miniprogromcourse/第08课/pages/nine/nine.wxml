@@ -1,0 +1,55 @@
+<view>
+  <view class='item-one'>
+    <view class='item-a'>
+      <image class='img-80' src='../images/flower.png'></image>
+      <text class='item-name'>小花花</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/car.png'></image>
+      <text>小花花</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/chicken.png'></image>
+      <text>小花花</text>
+    </view>
+  </view>
+
+ <view class='item-one'>
+    <view class='item-a'>
+      <image class='img-80' src='../images/dog.png'></image>
+      <text class='item-name'>小花花</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/duck.png'></image>
+      <text>小花花</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/elephant.png'></image>
+      <text>小花花</text>
+    </view>
+  </view>
+
+ <view class='item-one'>
+    <view class='item-a'>
+      <image class='img-80' src='../images/guice.png'></image>
+      <text class='item-name'>小和</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/goat.png'></image>
+      <text>小喝</text>
+    </view>
+
+    <view class='item-a'>
+      <image class='img-80' src='../images/ice.png'></image>
+      <text>小花花</text>
+    </view>
+  </view>
+
+
+
+</view>

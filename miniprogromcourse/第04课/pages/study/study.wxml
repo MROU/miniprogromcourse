@@ -1,0 +1,25 @@
+<icon type='download' size='30' color='#fff000'></icon>
+<text>北国风光，千里冰封，万里雪飘。
+望长城内外，惟余莽莽；
+大河上下，顿失滔滔。</text>
+<progress percent='80' stroke-width="20" color="#ff0000"></progress>
+<image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528388160825&di=66ca71bfadbe94925f5b59e59423ea60&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fa%2F54a8ff353a1f2.jpg'></image>
+<input  placeholder='请您输入你的手机号' maxlength='10'></input>
+<textarea placeholder='请您输入你的手机号' maxlength="10"></textarea>
+
+<button size='mini' type='warn'>我是按钮</button>
+
+<checkbox-group>
+  <checkbox>A</checkbox>
+   <checkbox>B</checkbox>
+    <checkbox>C</checkbox>
+</checkbox-group>
+
+<radio-group>
+  <radio color='#ff0000'>A</radio>
+   <radio checked='true'>B</radio>
+    <radio>C</radio>
+</radio-group>
+<picker mode="time">选择时间</picker>
+<picker mode="date">选择日期</picker>
+<picker mode="region">选择地址</picker>

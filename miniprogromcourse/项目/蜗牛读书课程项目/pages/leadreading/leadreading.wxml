@@ -1,0 +1,25 @@
+<view class='content-one' bindtap="writeBookReview">写书评</view>
+<view class="main" wx:for="{{articles}}" wx:for-item="item">
+  <navigator url='../detail/detail'>
+    <view class='header'>
+      <image src='{{item.authimg}}' class='cicrl'></image>
+      <image src='../../images/auth.png' class='personauth'></image>
+      <text class='authname'>{{item.authName}}</text>
+    </view>
+    <view class='articleimg'>
+      <image src='{{item.articleimg}}'> </image>
+    </view>
+
+    <view class='content'>
+      <text wx:if="{{item.tag==1}}" class='tag-1'>新书上架</text>
+      <text wx:if="{{item.tag==2}}" class='tag-2'>热点</text>
+      <text class='articledesc'>{{item.articledesc}}</text>
+      <view class='articlecontent'>{{item.articlecontent}}</view>
+    </view>
+
+    <view class='articledata'>
+      <text class='clickdata'>{{item.clicknum}}点击*{{item.booknum}}本书</text>
+      <text class='articlelike'>{{item.likenum}} 赞</text>
+    </view>
+  </navigator>
+</view>

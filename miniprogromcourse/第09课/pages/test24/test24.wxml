@@ -1,0 +1,4 @@
+<view class='bgview'>
+<image class="img" src="../images/car.png"></image>
+<view class='content'>class样式课程</view>
+</view>

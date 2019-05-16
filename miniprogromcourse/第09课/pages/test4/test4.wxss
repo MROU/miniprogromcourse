@@ -1,0 +1,43 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  margin-top: -60rpx;
+}
+.content-one{
+  display: flex;
+  flex-direction:row;
+}
+.content-one-first{
+  flex:1;
+  text-align: center;
+}
+.round{
+  border-radius:20rpx;
+  width: 320rpx;
+  height: 240rpx;
+  position: relative
+}
+
+.content-one-second{
+  flex: 1;
+  text-align: center;
+}
+.content-two{
+  display: flex;
+  flex-direction: row
+}
+
+.tcenter{
+   top:50%;
+   position: relative;
+}
+
+.title{
+   font-size: 50rpx;
+   color:#fff;
+}
+
+.desc{
+  color:#fff;
+  font-size: 30rpx;
+}

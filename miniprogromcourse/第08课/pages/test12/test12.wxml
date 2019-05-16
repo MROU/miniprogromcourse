@@ -1,0 +1,29 @@
+<view class='content'>
+ <view class='content-one'  bindtap="clickButton">发布</view>
+  <input placeholder="标题" placeholder-class='titlehint' class='title' auto-focus/>
+  <textarea class='sharecontent' placeholder-class='contenthint' placeholder="'如果你体验到了什么，就记录下来。如果你记录下来什么，就上传。如果你上传了什么，就分享'——《未来简史》"></textarea>
+  <view class='img'>
+  <view class='one' wx:for="{{imageObject}}">
+    <image  class='add_img' data-img="{{img}}" src='{{item}}' bindtap='preNetImg'></image>
+  </view>
+  </view>
+   <!-- <button  size='default' type="defaule" bindtap="clickButton">提交书评</button> -->
+  <view class='bottom'>
+    <view class='bottom_item' bindtap="showSelImg">
+      <image class='img-45' src='../images/addimg.png'></image>
+      <text class='font-30'>加图</text>
+    </view>
+    <view class='bottom_item'>
+      <image class='img-45' src='../images/addbook.png'></image>
+      <text class='font-30'>加书</text>
+    </view>
+    <view class='bottom_item'>
+      <image class='img-45' src='../images/addrecord.png'></image>
+      <text class='font-30'>插笔记</text>
+    </view>
+      <view class='bottom_item_right'>
+      <switch   type="checkbox"   bindchange="switch2Change"/>
+      <text class='font-30'>隐私</text>
+    </view>
+  </view>
+</view>

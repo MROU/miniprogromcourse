@@ -1,0 +1,22 @@
+.content{
+    display: flex;
+}
+swiper{
+  flex: 1;
+  text-align: center;
+  margin-top: 30%;
+  height: 300px;
+}
+image{
+  width:120px;
+  height:180px;
+  border-radius: 10rpx;
+  box-shadow: 5px 5px 5px #ccc;
+}
+ 
+
+
+
+
+
+

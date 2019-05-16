@@ -1,0 +1,102 @@
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
+  margin-top: 20rpx;
+
+}
+.header-one{
+  flex: 1;
+}
+.header-two{
+  flex: 6;
+ 
+}
+.cicrl {
+  height: 70rpx;
+  width: 70rpx;
+  border-radius: 50%;
+}
+.personauth{
+  position:relative;
+  height:30rpx;
+  width:30rpx;
+  border-radius:50%; 
+  top:5rpx;
+  left:-20rpx;
+}
+.authname{
+   font-size: 30rpx;
+   margin-right: 4%
+}
+.authintro{
+   font-size: 30rpx;
+   margin-right: 4%;
+    color: #555
+}
+
+.articleimg{
+  text-align: center;
+  margin-top: 20rpx;
+}
+.articleimg image{
+  border-radius:10rpx; 
+  height:320rpx;
+  width:92%;
+}
+.content{
+  margin-left: 3%;
+  margin-right:3%;
+  margin-top: 20rpx
+}
+.tag-1{
+   border-radius:30rpx; 
+   background-color: #ee8456;
+   padding: 10rpx;
+   font-size: 24rpx;
+   color: #fff
+}
+
+.tag-2{
+   border-radius:30rpx; 
+   background-color: #228456;
+   padding: 10rpx;
+   font-size: 24rpx;
+   color: #fff
+}
+.contenttitle{
+    font-size: 38rpx;
+    margin-left: 3%;
+    margin-top: 30rpx;
+    margin-right: 3%
+}
+.articlecontent{
+   font-size: 30rpx;
+   color: #555;
+   margin-right:3%;
+   margin-top: 10rpx
+}
+.articledata{
+   margin-right:3%;
+   margin-left: 3%;
+   margin-top: 20rpx;
+   display: flex;
+   margin-bottom: 50rpx;
+}
+.clickdata{
+   flex: 1;
+   font-size: 26rpx;
+   color: #555;
+}
+.articlelike{
+   flex: 1;
+   position: relative;
+   font-size: 26rpx;
+   color: #555;
+   text-align: right
+}

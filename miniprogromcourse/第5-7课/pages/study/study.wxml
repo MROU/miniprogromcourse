@@ -1,0 +1,58 @@
+<!-- 基础内容 -->
+<view class='demo'> 
+<icon style='margin-bottom:30rpx;' type='download' size='30' color='#fff000'></icon>
+<text class='content'>北国风光，千里冰封，万里雪飘。
+望长城内外，惟余莽莽； 
+大河上下，顿失滔滔。</text>
+</view>
+<text class='content'>北国风光，千里冰封，万里雪飘。
+望长城内外，惟余莽莽； 
+大河上下，顿失滔滔。</text>
+<!-- 表单组件 -->
+<view>
+<progress percent='80' stroke-width="20" color="#ff0000"></progress>
+<input  placeholder='请您输入你的手机号' maxlength='10'></input>
+<textarea  placeholder='请您输入你的手机号' maxlength="10"></textarea>
+<button style='background:url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2901825744,4161370420&fm=26&gp=0.jpg");color:#ff0000' size='mini' type='warn'>我是按钮</button>
+<checkbox-group >
+  <checkbox >A</checkbox>
+   <checkbox>B</checkbox>
+    <checkbox>C</checkbox>
+</checkbox-group>
+
+<radio-group>
+  <radio color='#ff0000'>A</radio>
+   <radio checked='true'>B</radio>
+    <radio>C</radio>
+</radio-group>
+<picker mode="time">选择时间</picker>
+<picker mode="date">选择日期</picker>
+<picker mode="region">选择地址</picker>
+</view>
+
+<!-- 导航组件 -->
+<view>
+<navigator url='/pages/learnwxss/learnwxss'>跳转</navigator>
+<navigator open-type='switchTab' url='/pages/book/book'>跳转Tab</navigator>
+</view>
+
+<!-- 媒体组件 -->
+<view>
+<image style='border-radius:50%;width:200rpx;height:200rpx;border:10rpx solid #ff0000' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528388160825&di=66ca71bfadbe94925f5b59e59423ea60&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fa%2F54a8ff353a1f2.jpg'></image>
+<audio poster="http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000" name="此时此刻" author="许巍" src="http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46" id="myAudio" controls loop></audio>
+<video src='http://www.w3school.com.cn/example/html5/mov_bbb.mp4'></video>
+</view>
+
+<!-- 地图组件 -->
+<view>
+<map scale='18' markers='{{markers}}' longitude= longitude='113.600542' latitude='28.70503' style='background:#ee8977'></map>
+</view>
+
+<swiper indicator-dots='true'>
+ <swiper-item>
+<image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528388160825&di=66ca71bfadbe94925f5b59e59423ea60&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fa%2F54a8ff353a1f2.jpg'></image>
+ </swiper-item>
+  <swiper-item>
+   <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528388160825&di=66ca71bfadbe94925f5b59e59423ea60&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fa%2F54a8ff353a1f2.jpg'></image>
+  </swiper-item>
+</swiper>

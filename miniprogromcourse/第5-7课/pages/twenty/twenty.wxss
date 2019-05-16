@@ -1,0 +1,16 @@
+/* pages/twenty/twenty.wxss */
+.imgarea{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 100rpx;
+}
+.img-100{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 10rpx;
+}
+.videoarea{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 100rpx;
+}

@@ -1,0 +1,59 @@
+.content{
+    display: flex;
+    flex-direction: column
+}
+swiper{
+  flex: 1;
+  margin-top: 15%;
+  height: 380px;
+}
+
+swiper-item{
+  text-align: center
+}
+
+.slide-image{
+  width:200px;
+  height:300px;
+  border-radius: 10rpx;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.slide-banner{
+  width:60px;
+  height:40px;
+}
+
+.percent_read{
+  display: flex;
+  width: 88rpx;
+  height: 88rpx;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 28%;
+  top: -25rpx
+}
+
+.percent_val{
+  font-size: 30rpx;
+  color: #fff;
+}
+.bookname{
+  text-align: center;
+  margin-top: 40rpx
+}
+.activity{
+  text-align: center;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  color: #ff8887
+}
+
+
+
+
+
+

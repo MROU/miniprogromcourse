@@ -1,0 +1,21 @@
+/* pages/nineteen/nineteen.wxss */
+.circle{
+  width:500rpx;
+  height: 500rpx;
+  border-radius: 50%;
+  border: 10rpx solid #987654;
+}
+.content{
+  display: flex;
+  justify-content: center
+}
+.userinfo-avatar {  
+  overflow:hidden;  
+  width: 160rpx;  
+  height: 160rpx;  
+  margin: 20rpx;  
+  margin-top: 50rpx;  
+  border-radius: 50%;  
+  border: 8rpx solid rgb(72, 218, 223);  
+}  
+  

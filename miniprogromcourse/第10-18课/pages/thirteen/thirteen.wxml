@@ -1,0 +1,5 @@
+<!--pages/thirteen/thirteen.wxml-->
+<text>pages/thirteen/thirteen.wxml</text>
+<navigator url='/pages/twelve/twelve?name=xiaomai&age=12'>跳转到上节课</navigator>
+
+

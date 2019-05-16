@@ -1,0 +1,23 @@
+<input type="digit"  bindinput="bindOne" placeholder="请输入数字" />+<input type="digit" bindinput="bindTwo" placeholder="请输入数字" />
+<view bindtap='bindAdd'>=</view>
+<view>{{res}}</view>
+
+
+<!-- 场景一 onLoad接受的传值 -->
+<view class='top-50'>{{installSn}}</view>
+
+
+<!-- 场景二 picker的使用-->
+<picker  class='top-50' mode="selector" range="{{array}}"  bindchange="listenerPicker">
+        <text>picker选择:{{array[index]}}</text>
+</picker>
+
+<!-- 场景三 picker的使用-->
+<picker   class='top-50' mode="selector" range="{{array1}}" range-key="val" bindchange="listenerPicker1">
+       <text>picker1选择:{{array1[index1]}}</text>
+</picker>
+
+<!-- 场景四 列表的使用-->
+<view wx:for="{{list}}" class='top-50'>
+  <text class='content'>{{item.time}}-{{item.name}}-花费：{{item.price}}</text>
+</view>

@@ -1,0 +1,38 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="main">
+
+  <text class='contenttitle'>{{articles.articledesc}}</text>
+  <view class='header'>
+  <view class='header-one'>
+    <image src='{{articles.authimg}}' class='cicrl'></image>
+    <image src='../../images/auth.png' class='personauth'></image>
+  </view>
+   <view class='header-two'>
+    <text class='authname'>{{articles.authName}}</text>
+    <view><text class='authintro'>喜欢读书，热爱思考，理性发声</text></view>
+   </view>
+<view class='header-three'>
+   关注
+ </view>
+   
+  </view>
+  
+
+<rich-text nodes="{{content}}" bindtap="tap"></rich-text>
+<view class="wxParse">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
+
+<view class="bottom-box">
+<view class="bottom-box-one">
+    <image class='box-img' src='../../images/share.png'></image>
+</view>
+<view class="bottom-box-two">
+  <image class='box-img' src='../../images/like.png'></image>
+</view>
+<view class="bottom-box-three">
+  <image class='box-img' src='../../images/comment.png'></image>
+  <text class='pup_num'>12</text>
+</view>
+</view>
+</view>

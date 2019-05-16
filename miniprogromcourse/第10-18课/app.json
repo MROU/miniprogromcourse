@@ -1,0 +1,65 @@
+{
+//   <!-- 可以参考pages/test16/test16也实现相似效果 -->
+// <!-- 第十课对应pages/ten/ten -->
+// <!-- 第十一课对应pages/eleven/eleven -->
+// <!-- 第十二课对应pages/twelve/twelve -->
+// <!-- 第十三课对应pages/thirteen/thirteen -->
+// <!-- 第十四课对应pages/fourteen/fourteen -->
+// <!-- 第十五课对应pages/fifteen/fifteen -->
+// <!-- 第十六课对应pages/sixteen/sixteen -->
+// <!-- 第十七课对应pages/seventeen/seventeen-->
+// <!-- 第十八课对应pages/eighteen/eighteen-->
+  "pages": [
+    "pages/nine/nine",
+    "pages/test26/test26",
+    "pages/test25/test25",
+    "pages/eighteen/eighteen",
+    "pages/seventeen/seventeen",
+    "pages/sixteen/sixteen",
+    "pages/fifteen/fifteen",
+    "pages/fourteen/fourteen",
+    "pages/thirteen/thirteen",
+    "pages/twelve/twelve",
+    "pages/eleven/eleven",
+    "pages/ten/ten",
+    "pages/test16/test16",
+    "pages/seventeenone/seventeenone",
+    "pages/test27/test27",
+    "pages/test24/test24",
+    "pages/test23/test23",
+    "pages/test22/test22",
+    "pages/test4/test4",
+    "pages/test18/test18",
+    "pages/test19/test19",
+    "pages/test17/test17",
+    "pages/test20/test20",
+    "pages/beautysign/beautysign",
+    "pages/test3/test3",
+    "pages/reportfrom/reportfrom",
+    "pages/setting/setting",
+    "pages/test1/test1",
+    "pages/test5/test5",
+    "pages/test2/test2",
+    "pages/test10/test10",
+    "pages/test12/test12",
+    "pages/test14/test14",
+    "pages/test8/test8",
+    "pages/test13/test13",
+    "pages/test11/test11",
+    "pages/test15/test15",
+    "pages/test0/test0",
+    "pages/index/index",
+    "pages/test9/test9",
+    "pages/test7/test7",
+    "pages/test6/test6",
+    "pages/recordaccount/recordaccount",
+    "pages/buildordertest/buildordertest",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

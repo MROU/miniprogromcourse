@@ -1,0 +1,26 @@
+.item-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.item-a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20rpx;
+  border-radius: 50%;
+  width: 160rpx;
+  height: 160rpx;
+}
+.img-80{
+  width: 80rpx;
+  height: 80rpx;
+}
+.item-name{
+  color: #909090;
+}
+.item-a:hover{
+  background: #987654;
+}

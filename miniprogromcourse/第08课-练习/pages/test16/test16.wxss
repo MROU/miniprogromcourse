@@ -1,0 +1,41 @@
+/* pages/test16/test16.wxss */
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image:url(http://www.startplan.cn/img/wave_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item{
+  flex:1;
+  position: relative;
+  text-align:center;
+  margin: 20rpx;
+  border-radius: 50%;
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.item:hover{
+  flex:1;
+  position:relative;
+  text-align:center;
+  margin: 20rpx;
+  background:#894354;
+  border-radius:50%;
+  width: 160rpx;
+  height: 160rpx;
+}
+
+
+.size-80{
+  width: 80rpx;
+  height: 80rpx
+}
+
+ 
+.iname{
+  font-size: 36rpx;
+  color: #666
+}

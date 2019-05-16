@@ -1,0 +1,53 @@
+<!--pages/addrecord/addrecord.wxml-->
+<view class='main'>
+  <form bindsubmit="commitRecordData">
+    <view class="goods-list">
+      <view class="show-address">
+        <view class="cell">
+          <view class="cell-ft">账目类别：</view>
+          <view class="cell-fr"> <picker class="name-tel-color" mode="selector" range="{{array}}" value="{{index}}" bindchange="listenerPickerSelected">
+              <text>{{array[index]}}</text>
+            </picker></view>
+        </view>
+
+          <view class="cell">
+          <view class="cell-ft">门店名称：</view>
+          <view class="cell-fr">  <picker class="name-tel-color" mode="selector" range="{{storearray}}" value="{{selindex}}" range-key="{{'name'}}" bindchange="listenerStorePickerSelected">
+    <text>{{storeSelName}}</text>
+</picker></view>
+        </view>
+        <view class="cell">
+          <view class="cell-ft">收款时间：</view>
+          <!--mode默认selector range数据源value选择的index bindchange事件监听-->
+          <picker class="name-tel-color" mode="date" value="{{date}}" start="2010-09-01" end="2025-09-01" bindchange="bindDateChange">
+            <view class="picker">
+              {{date}}
+            </view>
+          </picker>
+
+          <picker class="name-tel-color" mode="time" value="{{time}}" start="06:00" end="23:00" bindchange="bindTimeChange">
+            <view class="pickertime">
+              {{time}}
+            </view>
+          </picker>
+        </view>
+        
+        <view class="cell">
+          <text wx:if="{{index==0}}" class='tcenter'>代收款项：</text>
+           <text wx:if="{{index==1}}" class='tcenter'>代付款项：</text>
+          <input class='iflex' name="paysum" type='digit' placeholder="（单位：元）" value='' style="color:#888" />
+        </view>
+           <view class="cell">
+          <text class='tcenter'>备注：</text>
+          <textarea class='iflex' name="remarks"  placeholder="" value='' style="color:#888" />
+        </view>
+         <view class="cell-start">
+          <image  class="add_img" wx:if="{{ispic}}" src="{{imageObject[0]}}" bindtap="preImg"></image>
+               <image class="add_img" wx:if="{{!ispic}}" src="../images/add_img.png" bindtap="didPressChooesImage"></image>
+         </view>
+        <button class="login" form-type="submit">立即提交</button>
+      </view>
+    </view>
+  </form>
+  
+</view>

@@ -1,0 +1,38 @@
+<view class="main">
+  <view class="content-one">
+    <view class="content-one-first">
+      <view class='tcenter'>
+        <view class='title'>在读榜</view>
+        <view class='desc'>Top List</view>
+      </view>
+
+    </view>
+    <view class="content-one-second">
+      <view class='tcenter'>
+        <view class='title'>新书榜</view>
+        <view class='desc'>New Release</view>
+      </view>
+
+    </view>
+  </view>
+
+  <view class='content-two'>
+     <view class='content-two-first'>
+        <view class='hr'></view>
+     </view>
+     <view class='content-two-second'>
+         分类
+     </view>
+      <view class='content-two-three'>
+        <view class='hr'></view>
+      </view>
+  </view>
+
+  <view class='content-three'>
+     <view wx:for="{{categorys}}" wx:for-item="item">
+          <view class='content-three-comm' style="background-image:url('{{item.categoryImg}}')"> <view class='comm-title'>{{item.categoryName}}</view> </view>
+          
+     </view>
+  </view>
+
+</view>

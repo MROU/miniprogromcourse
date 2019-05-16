@@ -1,0 +1,5 @@
+/* pages/test22/test22.wxss */
+.bg_view{
+  background: #e34543;
+  height: 500rpx;
+}

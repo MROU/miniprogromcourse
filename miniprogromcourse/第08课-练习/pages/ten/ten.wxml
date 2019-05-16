@@ -1,0 +1,12 @@
+<view>HELLO 小程序</view>
+<view>{{message}}</view>
+<view>班上的学生：{{num}}</view>
+<view wx:if="{{flag}}">是否显示</view>
+<view>名字：{{obj.name}}</view>
+<view>年龄：{{obj.age}}</view>
+<view>{{arr[2]}}</view>
+<view>{{arr1[0].name}}</view>
+<view>{{arr1[1].name}}</view>
+<view>{{arr.length}}</view>
+<view>{{arr1.length}}</view>
+

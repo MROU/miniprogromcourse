@@ -1,0 +1,9 @@
+<!--pages/test16/test16.wxml-->
+<view class='bottom'>
+  <view  wx:for="{{boxmenus}}" wx:for-index="index" wx:for-item="item">
+    <view class='item'>
+      <image class='size-80' src='{{item.boxmimg}}'></image>
+      <view class='iname'>{{item.boxmname}}</view>
+    </view>
+  </view>
+</view>

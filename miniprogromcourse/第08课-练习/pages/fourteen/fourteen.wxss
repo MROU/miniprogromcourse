@@ -1,0 +1,4 @@
+/* pages/fourteen/fourteen.wxss */
+.blue{
+  color:#0000ff; 
+} 

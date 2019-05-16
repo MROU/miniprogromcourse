@@ -1,0 +1,26 @@
+<!--pages/test14/test14.wxml-->
+<view>
+  <view>{{year}}年{{month}}月{{day}}日{{weeks[week]}}</view>
+  <block wx:if="{{showFlag}}">
+    <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove"></view>
+    <view class='vline'>
+      <view class='vleft' bindtap="hideModal">取消</view>
+      <view class='vright' bindtap="selectTime">确定</view>
+    </view>
+    <picker-view class='modal-dialog' indicator-style="height: 50px;" style="width: 100%; height: 200px;text-align:center;position: fixed;bottom: 0;border-top:1px solid #999999;" value="{{value}}" bindchange="bindChange">
+
+      <picker-view-column>
+        <view wx:for="{{years}}" style="line-height: 50px">{{item}}年</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{months}}" style="line-height: 50px">{{item}}月</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{days}}" style="line-height: 50px">{{item}}日</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{weeks}}" style="line-height: 50px">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </block>
+</view>
